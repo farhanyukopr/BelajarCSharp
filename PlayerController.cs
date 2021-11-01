@@ -1,8 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.InputSystem;
-using TMPro;
+using System;
 
-public class PlayerControler : MonoBehaviour
-{}
+namespace HelloWorld
+{
+    Public class program
+    {
+        public static void Main(string[].args)
+        {
+            Console.writeLine("Hello World");
+        }
+    }
+}
