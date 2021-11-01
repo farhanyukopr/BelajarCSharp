@@ -11,6 +11,10 @@ namespace HelloWorld
             mangga = int.Parse(Console.ReadLine());
             Console.writeLine("Apple = ");
             apel = int.Parse(Console.ReadLine());
+
+            hasil = mangga - apel;
+
+            Console.WriteLine($"Hasil mangga - apel = {hasil}");
         }
     }
 }
